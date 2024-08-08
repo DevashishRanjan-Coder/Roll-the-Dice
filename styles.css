@@ -1,0 +1,61 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+button {
+  margin-left: 49%;
+  margin-top: 25px;
+  font-family: "Indie Flower", cursive;
+  font-size: larger;
+  font-weight: bold;
+  border-radius: 30px;
+  box-shadow: 5px 5px 5px black;
+  height: 50px;
+  background-color: chartreuse;
+}
+
+.pressedStart {
+  transform: translateY(10px);
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+body {
+  background-image: url("./images/pokerBG.jpeg");
+  background-size: cover;
+}
+
+h1 {
+  margin: 30px;
+  font-family: "Lobster", cursive;
+  text-shadow: 6px 0 #232931;
+  font-size: 8rem;
+  color: #4ecca3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ecca3;
+  font-family: "Indie Flower", cursive;
+  margin-left: 20%;
+}
+
+img {
+  width: 80%;
+  margin-left: 20%;
+}
+
+footer {
+  margin-top: 5%;
+  padding-left: 6.5%;
+  color: #eeeeee;
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+}
